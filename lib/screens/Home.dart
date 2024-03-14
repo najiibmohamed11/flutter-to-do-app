@@ -184,7 +184,10 @@ class _HomeState extends State<Home> {
                             ),
                             SizedBox(width: 10.0),
                             IconButton(
-                              icon: Icon(Icons.delete,color: Colors.red,),
+                              icon: Icon(
+                                Icons.delete,
+                                color: Colors.red,
+                              ),
                               onPressed: () {
                                 setState(() {
                                   if (index < data.length) {
